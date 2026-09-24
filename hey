@@ -9,11 +9,12 @@
                                     BALOCHISTAN
         </pre>
         </h1>
-        <h1>THE UNSEEN BEAUTY</h1>
-        <p>Where Mountains Meet The Sea</p>
+        <h1 style="color: rgb(77, 70, 63);">THE UNSEEN BEAUTY</h1>
+        <p>Where Mountains Meet The Sea.</p>
         <h2>Why Balochistan</h2>
-        <p>Pakistan's largest province, but least explored. It has everything in one place-golden desert, blue beaches, snowy forests, volcanoes, and 7000 years of history. Row, peaceful, and untouched. No crowd, no noise-just nature.</p>
-        <h3>Places you must visit</h3>
+        <p>
+                   Pakistan's largest province, but least explored. It has everything <br>in one place-golden desert, blue beaches, snowy forests, <br> volcanoes, and 7000 years of history. Row, peaceful, and untouched. No crowd, no noise-just nature.</p>
+            <h3>Places you must visit</h3>
         <h3>
         1.  Kun Malir Beach-Gwadar Coastal Highway 
         </h3>
@@ -34,5 +35,38 @@
             4.Gawadar & Astola Island-Jewel of Arabian Sea
         </h3>
         <p>CrystalClear water where you can see fish. Boat ride from Gawadar, dolphins follow your boat. Pakistan's first marine protected <br> island. Activities: snorkeling, fishing, boat camping.</p>
+        <img src="" alt="">
+        <h3>
+            5. Moola Chotok-Hidden Waterfall of Khuzdar
+        </h3>
+        <p>A waterfall in the middle of desert mountains. 8-hour of road adventure to reach it. Very difficult road but when you reach-you won't believe your eyes.</p>
+        <h3>
+            6. Quetta & Hanna Lake-Your City
+        </h3>
+        <p>Base for all trips. Hanna Lake,Urak Valley, Zarghoon mountains. Fruits Garden of Pakistan. Don't miss sajji, Rosh and Kaak.</p>
+        <h2 style="color: rgb(3, 47, 245);">BEFORE YOU VISIT <br> BALOCHISTAN-6 THINGS <br> YOU MUST KNOW</h2>
+        <table border="1">
+            <tr>
+                <th>S.no</th>
+                <th>Things to do in Balochistan</th>
+                <th>Category</th>
+                <th>Prices <br>(USD <br>& <br>EUR)</th>
+                <th>Nearest Land-mark/Station</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Quid-e-Azam <br>Residency</td>
+                <td>Historic</td>
+                <td>$5-$15 <br>USD</td>
+                <td>Ziarat Bus Stand</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hingol National <br>Park</td>
+                <td>National Park</td>
+                <td>Free entry</td>
+                <td>N/A</td>
+            </tr>
+        </table>
     </body>
 </html>
