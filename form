@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>docs.google.com</title>
+    </head>
+    <div style="color: aliceblue; ">
+    <body style="background-color: aliceblue;" >
+        <h1 style="text-align: center; background-color: rgba(240, 255, 255, 0.959);">
+           <button>
+            Training and Internship program in Management, Tech, <br>Medical and many domains offering 3+1 Global
+        recognized <br>Certificates and along with placement assistance.</button></h1>
+        <p style="text-align:center;">
+            <button>Our  <b>training & Internship Program in Collaboration with IBM </b> is <br> a comprehensive career-building experience designed to help students <b>gain <br>industry-relavent skills, 
+                hand-on experience, and professional exposure.</b>
+            <p>
+                <b>Month 1-Internship:</b> Participants <b>apply their skills on real-world projects </b>while recieving <b>mentoship and feedback,</b>culminating in an <b>internship completion certificate.</b>
+            </p></button></p>
+            </div>
+    
+    </body>
+</html>
