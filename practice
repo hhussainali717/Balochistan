@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head></head>
+     <body>
+        <div style="color: rgb(66, 131, 206); display: flex; gap: 20px; align-items:center">
+        <abbr title="world health organization">who</abbr>
+        <address>
+            Alamdar road,<br>
+            Quetta,<br>
+            Balochistan.
+        </address>
 
+        <ul>
+            <li>first</li>
+            <li>second</li>
+
+        </ul>
+
+        <ol>
+            <li>first</li>
+            <li>second</li>
+            
+        </ol>
+        <button style="background-color: aquamarine;">Click here</button>
+        </div>
+        <table border="1">
+            <tr>
+                <th>S.no</th>
+                <th>Things to do in Balochistan</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>swimming</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>hiking</td>
+            </tr>
+
+
+            <code>
+            style="background-color: aquamarine;"
+            </code>
+            <br>
+            <cite>written by Rumi</cite>
+        </table>
+        <aside>
+            About
+        </aside>
+
+
+        <form>
+            <label for="email">email/username</label>
+            <input type="text" name="email/username" id="email/username" required>
+            <button type="submit" style="padding: 0dvb; background-color: rgb(3, 91, 255);color: rgb(255, 255, 255); height: 40px; width: 70px;">Submit</button> 
+            
+        </form>
+        <br>
+        <br>
+        <br>
+        <form action="/submit" method="POST">
+            <label for="fname">full name</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter your full name" required><br>
+            <label for="email">email</label>
+            <input type="text" name="email" id="email"><br>
+            <label for="age">Age</label>
+            <input type="number" name="number" id="number" min="18" max="20"><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="Password" placeholder="Enter your Password" minlength="8" required><br>
+            <label for="phone">phone</label>
+            <input type="tel" name="phone" id="phone"><br>
+            <label for="dob">date of birth</label>
+            <input type="date" name="dob" id="dob" required><br>
+            <label for="country">country</label>
+            <select name="country" id="country" required>
+                <option value="">choose country</option>
+                <option value="pk">Pakistan</option>
+                <option value="afg">Afghanistan</option>
+            </select>
+            <p>gender</p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label><br>
+            <button type="submit" style="background-color: rgb(104, 200, 230); padding: 20px;">submit</button>
+        </form>
+    </body>
+    </head>
