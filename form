@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <title>docs.google.com</title>
+        <title>practice</title>
     </head>
-    <div style="color: aliceblue; ">
-    <body style="background-color: aliceblue;" >
-        <h1 style="text-align: center; background-color: rgba(240, 255, 255, 0.959);">
-           <button>
-            Training and Internship program in Management, Tech, <br>Medical and many domains offering 3+1 Global
-        recognized <br>Certificates and along with placement assistance.</button></h1>
-        <p style="text-align:center;">
-            <button>Our  <b>training & Internship Program in Collaboration with IBM </b> is <br> a comprehensive career-building experience designed to help students <b>gain <br>industry-relavent skills, 
-                hand-on experience, and professional exposure.</b>
-            <p>
-                <b>Month 1-Internship:</b> Participants <b>apply their skills on real-world projects </b>while recieving <b>mentoship and feedback,</b>culminating in an <b>internship completion certificate.</b>
-            </p></button></p>
-            </div>
-    
+    <body>
+        <h2 style="text-align: center; color: #812fce;">Starting just for practice ,to know how <br>capable i'm  </h><br>
+        <form action="/submit" method="post">
+                <br>
+                <p>
+                <label for="fname"> full name</label>
+                <input type="text" name="fname" id="fname" placeholder="Name" required><br>
+                
+                <label for="email">email</label>
+                <input type="text" name="email" id="email" placeholder="e-mail" required><br>
+
+                <label for="phone">phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="***" required><br>
+
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob"><br>
+
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" minlength="6" pattern="2" placeholder="password" required><br>
+
+                <label for="age">age</label>
+                <input type="number" name="number" id="number" min="8" max="100+" placeholder="***" required><br>
+                
+                <label for="country">country</label>
+                <select name="country" id="country" required>
+                    <option value="">***</option>
+                    <option value="pak">Pakistan</option>
+                    <option value="Aus">Australia</option>
+                    <option value="Afg">Afghanistan</option>
+                </select><br>
+                 <p>Gender</p>
+                <input type="radio" name="gender" id="Male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                
+
+
+
+
+
+                    </p>
+        </form>
     </body>
 </html>
