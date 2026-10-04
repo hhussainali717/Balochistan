@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
+        <meta charset="8">
         <title>practice</title>
     </head>
-    <body>
-        <h2 style="text-align: center; color: #812fce;">Starting just for practice ,to know how <br>capable i'm  </h><br>
+    <div style="-webkit-text-stroke-color: #174b19; text-align: center;">
+        <h1 style="flex: 1; padding: 12px; background: white; color: #174b19; font-size: 24px; text-align: center;">Starting just for practice ,to know how <br>capable i'm  </h1><br>
         <form action="/submit" method="post">
                 <br>
-                <p>
+                
                 <label for="fname"> full name</label>
                 <input type="text" name="fname" id="fname" placeholder="Name" required><br>
                 
@@ -38,13 +39,17 @@
                 <label for="male">Male</label>
                 <input type="radio" name="gender" id="female" value="female">
                 <label for="female">Female</label>
+                <p>Good At</p>
+                <input type="checkbox" name="Good_At" id="communication_skill" value="communication_skill">
+                <label for="communication_skill">communication skill</label>
+
                 
 
 
 
 
-
-                    </p>
+                    
         </form>
     </body>
+    </div>
 </html>
