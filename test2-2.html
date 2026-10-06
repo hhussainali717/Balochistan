@@ -1,0 +1,160 @@
+<!DOCTYPE htm>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-bx;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      backgound: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .form-container {
+      backgrund: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      width: 100%;
+      max-wdth: 500px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      color: #666;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .radio-group,
+    .checkbox-group {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .radio-group label,
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: normal;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 15px;
+      backgrund: #667eea;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .submit-btn:hover {
+      transform: translateY(-2px);
+    }
+    .contact-info {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    
+    <h1>Get In Touch</h1>
+    <p class="subtitle">We'd love to hear from you. Send us a message!</p>
+    
+    <form action="/submit" method="POST">
+      
+      <!-- TODO: Create a div with class="form-group" -->
+      <!-- Inside it: label (for="name") + input type="text" id="name" name="name" placeholder="Enter your full name" required -->
+      
+      <!-- TODO: Create a div with class="form-group" -->
+      <!-- Inside it: label (for="email") + input type="email" id="email" name="email" placeholder="Enter your email address" required -->
+      
+      <!-- TODO: Create a div with class="form-group" -->
+      <!-- Inside it: label (for="subject") + select dropdown with id="subject" name="subject" -->
+      <!-- Select options: "General Inquiry" (value="general"), "Support" (value="support"), "Feedback" (value="feedback") -->
+      
+      <div class="form-group">
+        <label>Preferred Contact Method:</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="contact" value="email" checked>
+            Email
+          </label>
+          <label>
+            <input type="radio" name="contact" value="phone">
+            Phone
+          </label>
+        </div>
+      </div>
+      
+      <!-- TODO: Create a div with class="form-group" -->
+      <!-- Inside it: label "Subscribe to:" + div with class="checkbox-group" -->
+      <!-- Inside checkbox-group: 3 checkboxes with name="newsletter" -->
+      <!-- Values: "weekly" (label: Weekly Newsletter), "updates" (label: Product Updates), "offers" (label: Special Offers) -->
+      
+      <div class="form-group">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+      </div>
+      
+      <!-- TODO: Create button with type="submit" and class="submit-btn" -->
+      <!-- Button text: "Send Message" -->
+      
+    </form>
+    
+    <div class="contact-info">
+      <p><strong>Email:</strong> support@example.com</p>
+      <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+    </div>
+    
+  </div>
+</body>
+</html>
