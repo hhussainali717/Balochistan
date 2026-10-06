@@ -1,0 +1,180 @@
+<!DOCTYPE htm>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-bx;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .form-container {
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 500px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      color: #666;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .radio-group,
+    .checkbox-group {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .radio-group label,
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: normal;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 15px;
+      background: #667eea;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .submit-btn:hover {
+      transform: translateY(-2px);
+    }
+    .contact-info {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    
+    <h1>Get In Touch</h1>
+    <p class="subtitle">We'd love to hear from you. Send us a message!</p>
+    
+    <form action="/submit" method="POST">
+      
+      <div class="form-group">
+            <label for="fname">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address">
+      </div>
+      
+      <div>
+        <label for="subject">Subject</label>
+        
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject">
+            <option value="general">General Inquiry</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label>Preferred Contact Method:</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="contact" value="email" checked>
+            Email
+          </label>
+          <label>
+            <input type="radio" name="contact" value="phone">
+            Phone
+          </label>
+        </div>
+      </div>
+      <div class="checkbox-group">
+        <label for="subscribe to" >Subscribe To</label>
+        <select name="news letter" id="newsletter">
+            <option value="weekly">Weekly Newsletter</option>
+            
+            <option value="updates">Product Updates</option>
+            
+            <option value="offers">Special offers</option>
+            
+        </select>
+      </div>
+
+
+     
+      <div class="form-group">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+      </div>
+      
+      <button type="submit" class="submit-btn">Send Message</button>
+     
+    </form>
+    
+    <div class="contact-info">
+      <p><strong>Email:</strong> support@example.com</p>
+      <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+    </div>
+    
+  </div>
+</body>
+</html>
