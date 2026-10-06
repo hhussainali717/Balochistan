@@ -4,8 +4,19 @@
         <meta charset="8">
         <title>practice</title>
     </head>
-    <div style="-webkit-text-stroke-color: #174b19; text-align: center;">
-        <h1 style="flex: 1; padding: 12px; background: white; color: #174b19; font-size: 24px; text-align: center;">Starting just for practice ,to know how <br>capable i'm  </h1><br>
+    <body>
+        
+    
+    <style>
+    body
+    { text-align: center; background-color: #809176;}
+        input{
+            margin-left: 2%;
+            margin-bottom: 12px;
+        }
+
+    </style>
+        <h1 style="flex: 1; padding: 9px; color: #174b19; font-size: 34px; text-align: center;">Starting just for practice ,to <br>know how capable i'm  </h1><br>
         <form action="/submit" method="post">
                 <br>
                 
@@ -50,6 +61,7 @@
 
                     
         </form>
+        </div>
     </body>
-    </div>
+    
 </html>
