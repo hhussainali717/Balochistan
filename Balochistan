@@ -11,7 +11,7 @@
         }
         .newheading {
             text-align: center;
-            color: #4b504a;
+            color: rgb(125, 131, 124);
             padding: 50px;
         }
         .paragraph {
@@ -32,19 +32,25 @@
         h2{text-indent: 10px;}
         .headingbox{
           background-color: rgb(250, 248, 248);
-          
+          border-shadow:0 10px 30px rgba(182, 67, 67, 0.2);
+          width:100px;
+          max-width:400px;
+          justify-content:center;
+        }
+        body{
+            background-color: black;
         }
     </style>
 
     <body>
-        <h1 class="newheading">
+        <h1 class="newheading" style="color:#7d837;">
          BALOCHISTAN</h1>
         <h1>THE UNSEEN BEAUTY</h1>
 
         
         <p>Where Mountains Meet The Sea.</p>
         
-        <h2>Why Balochistan</h2>
+        <h2 style="color:rgb(125, 131, 124);">Why Balochistan</h2>
         
         <p class="paragraph">
                    Pakistan's largest province, but least explored. It has everything <br>in one place-golden desert, blue beaches, snowy forests, volcanoes, and 7000 <br>years of history. Row, peaceful, and untouched. No crowd, no noise-just nature.</p>
@@ -121,7 +127,7 @@
         </div>
             <h2 style="color: rgb(3, 47, 245);">BEFORE YOU VISIT <br> BALOCHISTAN-6 THINGS <br> YOU MUST KNOW</h2>
         
-        <table border="1">
+        <table border="1" style="color:rgb(125, 131, 124);">
             <tr>
                 <th>S.no</th>
                 <th>Things to do in Balochistan</th>
