@@ -26,11 +26,14 @@
             border-color: black;
             text-indent: 30px;
             display: inline-block;
-            border-bottom: 2px solid #000000;
-            
+            text-decoration: underline solid #000000  ;  
         }
         
         h2{text-indent: 10px;}
+        .headingbox{
+          background-color: rgb(250, 248, 248);
+          
+        }
     </style>
 
     <body>
@@ -44,20 +47,20 @@
         <h2>Why Balochistan</h2>
         
         <p class="paragraph">
-                   Pakistan's largest province, but least explored. It has everything <br>in one place-golden desert, blue beaches, snowy forests, <br> volcanoes, and 7000 years of history. Row, peaceful, and untouched. No crowd, no noise-just nature.</p>
+                   Pakistan's largest province, but least explored. It has everything <br>in one place-golden desert, blue beaches, snowy forests, volcanoes, and 7000 <br>years of history. Row, peaceful, and untouched. No crowd, no noise-just nature.</p>
         
        <h1  style="text-align: center; ">Places you must visit</h1>
 
        <hr>
 
        <h3 class="heading ">
-             1.  Kun Malir Beach-Gwadar Coastal Highway 
+    1.  Kun Malir Beach-Gwadar Coastal Highway 
         </h3>
         
         
         <div style="display: flex; gap: 70px;">
         
-             <p class="paragraph">Golden desert mountains touching blue sea. This is not <br> Maldives, this is better and it's ours. Camp at night, stars look like diamonds. <br> Best time:<br>October to March.</p>
+             <p class="paragraph">Golden desert mountains touching blue sea. This is not <br> Maldives, this is better and it's ours. Camp at night, stars look like diamonds. <br> Best time: <b>October to March.</b></p>
              <img src="c:\Users\PC\Downloads\hhhh.jpg" width="220" height="220" alt=" Take it from Google">
         
         </div>
@@ -69,8 +72,10 @@
 
 
         <div style="display: flex;">
-             <p class="paragraph">Feels like Mars on Earth. You will see Princess <br>of Hope (naturak rock statue), Active mud volcanoes, <br> and wild ibex. Also home to Hinglaj Mata Temple. Jeep safari is a must.</p> 
+             <p class="paragraph">Feels like Mars on Earth. You will see Princess <br>of Hope (naturak rock statue), Active mud volcanoes,  and wild <br>ibex. Also home to Hinglaj Mata Temple. Jeep safari is a must.</p> 
+            <div style="padding: 30px;">
              <img src="c:\Users\PC\Downloads\Moola_Chotuk,_Khuzdar,_Balochistan.jpg" alt="find from google">
+            </div>
         </div>
 
         <h3 class="heading ">
@@ -89,7 +94,7 @@
         </h3>
         
         <div style="display: flex; gap: 30px;">
-             <p class="paragraph">CrystalClear water where you can see fish. Boat ride from Gawadar, dolphins follow your boat. Pakistan's first marine protected <br> island. Activities: snorkeling, fishing, boat camping.</p>
+             <p class="paragraph">CrystalClear water where you can see fish. Boat ride from Gawadar, <br>dolphins follow your boat. Pakistan's first marine protected  island. Activities: snorkeling, <br>fishing, boat camping.</p>
             <div style="text-align: center;">
                 <img src="c:\Users\PC\Downloads\hh1.jpg" width="200" height="190" alt="find it">
             </div>
@@ -99,18 +104,22 @@
         </h3>
        
         <div style="display: flex; gap: 30px;">
-             <p class="paragraph">A waterfall in the middle of desert mountains. 8-hour of road adventure to reach it. Very difficult road but when you reach-you won't believe your eyes.</p>
+             <p class="paragraph">A waterfall in the middle of desert mountains. 8-hour of road adventure to <br> reach it. Very difficult road but when you reach-you won't believe your eyes.</p>
             
             <div style="text-align: center;">   
                 <img src="c:\Users\PC\Downloads\hwhw.jpg" width="200" height="190" alt="find it">
             </div> 
         </div>
-        <h3 class="heading">
+       <div class="headingbox">
+        <h3>
             6. Quetta & Hanna Lake-Your City
         </h3>
 
-            <p class="paragraph">Base for all trips. Hanna Lake,Urak Valley, Zarghoon mountains. Fruits Garden of Pakistan. Don't miss sajji, Rosh and Kaak.</p>
-        <h2 style="color: rgb(3, 47, 245);">BEFORE YOU VISIT <br> BALOCHISTAN-6 THINGS <br> YOU MUST KNOW</h2>
+            <p class="paragraph">Base for all trips. Hanna Lake,Urak Valley, Zarghoon mountains. Fruits Garden <br>of Pakistan. Don't miss sajji, Rosh and Kaak.</p>
+            
+            <img src="a91e26da29e6c6d57c4884624526253e.jpg" alt="find from google " width="300px" height="230px">
+        </div>
+            <h2 style="color: rgb(3, 47, 245);">BEFORE YOU VISIT <br> BALOCHISTAN-6 THINGS <br> YOU MUST KNOW</h2>
         
         <table border="1">
             <tr>
