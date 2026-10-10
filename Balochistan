@@ -11,7 +11,7 @@
         }
         .newheading {
             text-align: center;
-            color: rgb(125, 131, 124);
+            color: rgb(100, 107, 98);
             padding: 50px;
         }
         .paragraph {
@@ -19,7 +19,7 @@
              text-indent: 120px;
         }
         .heading {
-            color: #383829;
+            color: #6d6d67;
             font-style: oblique;
             font-size: x-large;
             border-bottom: 100px;
@@ -50,6 +50,7 @@
         body{
             background-color: black;
         }
+        
     </style>
 
     <body>
@@ -98,7 +99,7 @@
              3.    Ziarat-City of Juniper (Near Quetta)
         </h3>
 
-       <div style="display: flex; gap:30px ;">
+       <div>
              <p>5000-year-old juniper forests-some are the oldest trees in the world. Quid-e-Azam <br>Residency, snowfall in winter, and pure peace.Best for family trip from Quetta.</p>
             <div style="text-align: center; gap: 10px;">
                 <img src="c:\Users\PC\Downloads\images.jpg" width="250" height="160" alt=" find it">
