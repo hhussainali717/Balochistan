@@ -3,20 +3,45 @@
     <head>
         <title>form</title>
     </head>
-    
-    <body>
+    <style>
+
+        .body{
+           
+           color: #5d9153;
+        } 
+            :root {
+      --ink: #0e1719;        
+       background: var(--ink);
+       font-family: "DM Sans", system-ui, sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.7;
+            }      
+       * { box-sizing: border-box; margin: 0; padding: 0;}
+        
+        
+    </style>
+    <body class="body" style="text-align: center;">
        
-     <!--  <h1 style="top-padding: 50px;">Register Now</h1>
-            <p> We will never ever send you spam</p>
+       <h1>SIGN IN</h1>
        
             <form>
-                <p>What's your name?*</p>
+                
                 <label for="fname"></label>
-                <input type="text" name="fname" id="fname" placeholder="Name" required>
+                <input type="text" name="fname" id="fname" placeholder="Enter your name" required>
                        <br>
-                <label for="email"></label>
-                <input type="text" name="email" id="email" placeholder="e-mail" required><br>
-
-            </form> -->
+               
+               <label for="password"></label>
+                <input type="password" name="password" id="password" minlength="8" pattern="3" placeholder="Password" required><br>
+                       <br>
+                
+                <button>SIGN IN</button>
+                        <br>
+                <a href="forgot.html">forgot password?</a>
+                        <br>
+                
+                <p>don't have a account?</p>
+                
+                <a href="forgot.html">SIGN UP</a>
+            </form>
     </body>
 </html>
