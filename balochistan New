@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Balochistan: The Unseen Beauty | Valley of Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #0e1719;        /* page background */
+      --panel: #162326;      /* card background */
+      --line: #2a3b3f;       /* borders */
+      --sand: #e9d8b4;       /* headings */
+      --text: #c9d1cc;       /* body text */
+      --muted: #8a9a95;
+      --sea: #3fb0a6;        /* accent */
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--ink);
+      color: var(--text);
+      font-family: "DM Sans", system-ui, sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3 {
+      font-family: "Fraunces", Georgia, serif;
+      color: var(--sand);
+      line-height: 1.15;
+    }
+
+    img { display: block; max-width: 100%; }
+
+    a:focus-visible, summary:focus-visible { outline: 3px solid var(--sea); outline-offset: 3px; }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      min-height: 80vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 4rem 1.5rem;
+      background:
+        linear-gradient(to bottom, rgba(14,23,25,.55), var(--ink)),
+        linear-gradient(120deg, #7a5a2e 0%, #b58a4a 35%, #2b7f86 70%, #0f3d4a 100%);
+    }
+    .hero h1 {
+      font-size: clamp(3rem, 11vw, 8rem);
+      font-weight: 700;
+      letter-spacing: .02em;
+      color: #fff6df;
+    }
+    .hero .tagline {
+      font-family: "Fraunces", Georgia, serif;
+      font-style: italic;
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      color: var(--sand);
+      margin-top: 1rem;
+    }
+    .hero .sub {
+      margin-top: .5rem;
+      color: var(--text);
+    }
+
+    /* ---------- Layout ---------- */
+    main { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+    .intro { padding: 4rem 0 3rem; }
+    .intro h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 1rem; }
+    .intro p { max-width: 65ch; }
+
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 2.5rem;
+    }
+
+    /* ---------- Place cards ---------- */
+    .place {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+    .place:nth-of-type(even) .place-img { order: -1; }
+
+    .place-body { padding: 2rem; }
+    .place-body h3 { font-size: 1.6rem; margin-bottom: .75rem; }
+    .place-body p { max-width: 55ch; }
+    .best-time { margin-top: 1rem; color: var(--sea); font-weight: 500; }
+
+    .place-img {
+      height: 100%;
+      min-height: 260px;
+      background: #1f3236;
+    }
+    .place-img img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* ---------- Table ---------- */
+    .info h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 4rem 0 1.5rem; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; }
+    table { width: 100%; border-collapse: collapse; min-width: 640px; }
+    th, td { padding: 1rem 1.25rem; text-align: left; border-bottom: 1px solid var(--line); }
+    th { background: var(--panel); color: var(--sand); font-weight: 700; }
+    tr:last-child td { border-bottom: 0; }
+    tbody tr:hover td { background: rgba(63,176,166,.07); }
+
+    footer { text-align: center; padding: 2rem; color: var(--muted); border-top: 1px solid var(--line); }
+
+    /* ---------- Mobile ---------- */
+    @media (max-width: 760px) {
+      .place { grid-template-columns: 1fr; }
+      .place:nth-of-type(even) .place-img { order: 0; }
+      .place-img { min-height: 220px; order: -1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div>
+      <h1>Balochistan</h1>
+      <p class="tagline">The unseen beauty</p>
+      <p class="sub">Where mountains meet the sea.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Why Balochistan</h2>
+      <p>
+        Pakistan's largest province, and its least explored. Golden desert, blue beaches,
+        snowy forests, volcanoes, and 7,000 years of history in one place.
+        Raw, peaceful, and untouched. No crowds, no noise. Just nature.
+      </p>
+    </section>
+
+    <h2 class="section-title">Places you must visit</h2>
+
+    <article class="place">
+      <div class="place-body">
+        <h3>Kund Malir Beach</h3>
+        <p>Golden desert mountains touching blue sea. This is not the Maldives. It's better, and it's ours. Camp at night and the stars look like diamonds.</p>
+        <p class="best-time">Best time: October to March</p>
+      </div>
+      <div class="place-img"><img src="hhhh.jpg" alt="Kund Malir Beach on the Gwadar coastal highway" loading="lazy"></div>
+    </article>
+
+    <article class="place">
+      <div class="place-body">
+        <h3>Hingol National Park</h3>
+        <p>Feels like Mars on Earth. See the Princess of Hope (a natural rock statue), active mud volcanoes, and wild ibex. Also home to the Hinglaj Mata Temple. A jeep safari is a must.</p>
+      </div>
+      <div class="place-img"><img src="Moola_Chotuk,_Khuzdar,_Balochistan.jpg" alt="Hingol National Park landscape" loading="lazy"></div>
+    </article>
+
+    <article class="place">
+      <div class="place-body">
+        <h3>Ziarat, City of Juniper</h3>
+        <p>5,000-year-old juniper forests, some of the oldest trees in the world. Visit the Quaid-e-Azam Residency, see snowfall in winter, and enjoy the quiet. Best for a family trip from Quetta.</p>
+      </div>
+      <div class="place-img"><img src="images.jpg" alt="Juniper forest in Ziarat" loading="lazy"></div>
+    </article>
+
+    <article class="place">
+      <div class="place-body">
+        <h3>Gwadar and Astola Island</h3>
+        <p>Crystal-clear water where you can see the fish. Take a boat from Gwadar and dolphins follow you. Pakistan's first marine protected island. Try snorkeling, fishing, and boat camping.</p>
+      </div>
+      <div class="place-img"><img src="hh1.jpg" alt="Astola Island in the Arabian Sea" loading="lazy"></div>
+    </article>
+
+    <article class="place">
+      <div class="place-body">
+        <h3>Moola Chotok, Khuzdar</h3>
+        <p>A waterfall in the middle of desert mountains. Reaching it takes an 8-hour road adventure. The road is very difficult, but when you arrive you won't believe your eyes.</p>
+      </div>
+      <div class="place-img"><img src="hwhw.jpg" alt="Moola Chotok waterfall in Khuzdar" loading="lazy"></div>
+    </article>
+
+    <article class="place">
+      <div class="place-body">
+        <h3>Quetta and Hanna Lake</h3>
+        <p>Your base for all trips. Hanna Lake, Urak Valley, and the Zarghoon mountains. Known as the Fruit Garden of Pakistan. Don't miss sajji, rosh, and kaak.</p>
+      </div>
+      <div class="place-img"><img src="a91e26da29e6c6d57c4884624526253e.jpg" alt="Hanna Lake near Quetta" loading="lazy"></div>
+    </article>
+
+    <section class="info">
+      <h2>Before you visit: things to know</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Thing to do</th>
+              <th>Category</th>
+              <th>Price (USD)</th>
+              <th>Nearest landmark or station</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Quaid-e-Azam Residency</td><td>Historic</td><td>$5 to $15</td><td>Ziarat Bus Stand</td></tr>
+            <tr><td>2</td><td>Hingol National Park</td><td>National park</td><td>Free entry</td><td>N/A</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>Valley of Love</footer>
+
+</body>
+</html>
