@@ -31,21 +31,11 @@
         
         h2{text-indent: 10px;}
         .headingbox{
-          background-color: rgb(250, 248, 248);
-          border:0 10px 30px rgba(182, 67, 67, 0.2);
-          width:100px;
-          max-width:400px;
-          justify-content:center;
-          align-items: center;
-          display: flex;
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          width: 100%;
-          height: 100%;
-          overflow: hidden;
-          background-color: #b8a1a1;
-          text-align: center;
+             display: flex;
+             box-sizing: border-box;
+             width: 1600px;
+             height: 100%;
+             text-align: center;
         }
         body{
             background-color: black;
@@ -127,12 +117,13 @@
                 <img src="c:\Users\PC\Downloads\hwhw.jpg" width="200" height="190" alt="find it">
             </div> 
         </div>
-       <div class="headingbox">
-        <h3>
+         <h3 class="heading">
             6. Quetta & Hanna Lake-Your City
         </h3>
 
-            <p class="paragraph">Base for all trips. Hanna Lake,Urak Valley, Zarghoon mountains. Fruits Garden <br>of Pakistan. Don't miss sajji, Rosh and Kaak.</p>
+       <div class="headingbox">
+       
+            <p class="paragraph">Base for all trips. Hanna Lake,Urak Valley, Zarghoon mountains. <br> Fruits Garden of Pakistan. Don't miss sajji, Rosh and Kaak.</p>
             
             <img src="a91e26da29e6c6d57c4884624526253e.jpg" alt="find from google " width="300px" height="230px">
         </div>
@@ -163,3 +154,4 @@
         </table>
     </body>
 </html>
+
