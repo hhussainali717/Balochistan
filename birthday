@@ -2,11 +2,27 @@
 <html lang="eng">
     <head>
         <title>designer portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     </head>
     <style>
-        .hello{
-           background: linear-gradient(140deg,black,rgb(247, 9, 167));
+        .body{
+          background: #000000;
+ /* background: radial-gradient(circle,rgb(247, 9, 167) 0%, rgba(0, 0, 0, 1) 100%); */
            
+        }
+        .body::after{
+            content: '';
+            position: absolute;
+            top: 29%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1400px;
+            height: 400px;
+            background: radial-gradient(circle, #f74abd 0%, black 70%);
+            filter: blur(35px);
+            z-index: -1;
         }
         .div1{
          text-align: center;
@@ -15,15 +31,34 @@
         .happy{
         font-size: 70px;
         color: rgb(247, 9, 167);
-        
+        text-shadow:
+            0 0 10px #f74abd,
+            0 0 20px #f74abd,
+            0 0 40px #f74abd;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 30px;
+        font-style: normal;
         }
-        .dear{
+        
+        .dear {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 30px;
+        font-style: normal;
+        color: rgb(248, 248, 125);
+        text-shadow:
+            0 0 10px #f74abd,
+            0 0 20px #f74abd,
+            0 0 40px #f74abd;
+}
+        /* .dear{
         font-size: 45px;
         color: rgb(248, 248, 125);
-        }
+        } */
         
     </style>
-    <body class="hello" style=" margin: 150px; padding: 0px;">
+    <body class="body" style=" margin: 150px; padding: 0px;">
         <div class="div1">
             <i style="color: white;">To the most special person in my life</i>
             <h1 class="happy">Happy Birthday</h1>
