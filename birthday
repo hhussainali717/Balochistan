@@ -1,79 +1,205 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <title>designer portfolio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    </head>
-    <style>
-        .body{
-          background: #000000;
- /* background: radial-gradient(circle,rgb(247, 9, 167) 0%, rgba(0, 0, 0, 1) 100%); */
-           
-        }
-        .body::after{
-            content: '';
-            position: absolute;
-            top: 29%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 1400px;
-            height: 400px;
-            background: radial-gradient(circle, #f74abd7a 0%, black 70%);
-            filter: blur(35px);
-            z-index: -1;
-        }
-        .div1{
-         text-align: center;
-          font-size: 20px;   
-        }
-        .happy{
-        font-size: 70px;
-        color: rgb(247, 9, 167);
-        text-shadow:
-            0 0 10px #f74abd,
-            0 0 20px #f74abd,
-            0 0 40px #f74abd;
-        font-family: "Playfair Display", serif;
-        font-optical-sizing: auto;
-        font-weight: 30px;
-        font-style: normal;
-        }
-        
-        .dear {
-        font-family: "Playfair Display", serif;
-        font-optical-sizing: auto;
-        font-weight: 30px;
-        font-style: normal;
-        color: rgb(248, 248, 125);
-        text-shadow:
-            0 0 10px #f74abd,
-            0 0 20px #f74abd,
-            0 0 40px #f74abd;
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Happy Birthday Dear Bestie</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<style>
+*
+{margin:0;
+    padding:0
+    ;box-sizing:border-box
 }
-       .page{
-        text-align: left;
-        margin
-       }
-        
-    </style>
-    <body class="body" style=" margin: 150px; padding: 0px;">
-        <div class="div1">
-            <i style="color: white;">To the most special person in my life</i>
-            <h1 class="happy">Happy Birthday</h1>
-            <h1 class="dear">Dear Bestie</h1>
-            <p style="color: white;">Today is all about you!</p>
-            <button style="background-color: rgb(247, 9, 167);color: white; border-radius: 20px; border-color: rgb(247, 9, 167);padding: 12px;">Let's celebrate</button>
-        </div>
-        <div class="page">
-            <h1>You Are Amazing!</h1>
-            <p style="color: white;">On your special day, I want you to know how truly amazing you are. You bring happiness to the people around you and make ordinary moments unforgetable. <br> <br><br>
-            Your smile makes difficult days brighter, your kindness touches hearts, and your presence makes life more beautifull. Never forget how special you are. <br><br><br>
-            <br>I hopethis new year of your life brings you closer to your dreams and gives you countless reasons to smile.
-        </p>
-        <h5>I'm so lucky to have you in my life!</h5>
+html{
+    scroll-behavior:smooth
+}
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffd6e7;
+    overflow-x:hidden
+}
+h1,h2{
+    font-family:'Dancing Script',cursive
+}
+#hero{
+    height:100vh;
+    background:#0c0510;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+    color:#fff;
+    overflow:hidden
+}
+#hero::before{
+    content:'';
+    position:absolute;
+    width:800px;
+    height:800px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+#hero h1{
+    font-size:58px;
+    color:#ff6fae;
+    text-shadow:0 0 15px #ff2d7b,0 0 35px #ff2d7b;
+    line-height:1.1;
+    z-index:2
+}
+#hero small, #hero p, .btn-pink{
+    z-index:2
+}
+.btn-pink{
+    margin-top:20px;
+    background:#ff3f86;
+    color:#fff;
+    border:none;
+    padding:11px 26px;
+    border-radius:999px;
+    font-weight:600;
+    cursor:pointer;
+    box-shadow:0 0 20px rgba(255,63,134,.6)
+}
+.hearts{
+    position:absolute;
+    inset:0;
+    pointer-events:none}
+.h{
+    position:absolute;
+    animation:up linear infinite
+}
+@keyframes up{
+    0%{transform:translateY(110vh);
+    opacity:0}10%{opacity:1}100%{transform:translateY(-10vh);opacity:0}
+}
+.light{
+    background:#ffd6e7;
+    padding:70px 8%
+}
+.flex{
+    display:flex;
+    gap:40px;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center
+}
+.round-img{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    object-fit:cover;
+    border:10px solid #fff
+}
+.text-box{
+    max-width:580px
+}
+.text-box h2{
+    font-size:34px;
+    color:#a61e4e
+}
+.center-title{
+    font-size:34px;
+    color:#a61e4e;
+    text-align:center;
+    margin-bottom:30px
+}
+.wish-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:14px
+}
+.wish{
+    background:#fff;
+    border-radius:18px;
+    padding:20px 10px;
+    text-align:center
+}
+.mem-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px
+}
+.mem img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:16px
+}
+.msg{
+    background:#fff5f8;
+    padding:70px 12%;
+    text-align:center
+}
+#final{
+    background:#0c0510;
+    color:#fff;
+    padding:80px 8%;
+    text-align:center;
+    position:relative;
+    overflow:hidden
+}
+#final h2{
+    font-size:36px;
+    color:#ff9ac0
+    }
+</style>
+</head>
+<body>
 
-        </div>
-        </body>
+<section id="hero">
+<div class="hearts" id="h1"></div>
+<small>To the most special person in my life 💖</small>
+<h1>Happy Birthday<br>Dear Bestie 💖</h1>
+<p>Today is all about you 💕</p>
+<button class="btn-pink" onclick="document.getElementById('about').scrollIntoView()">Let's Celebrate 🎉</button>
+</section>
+
+<section class="light" id="about">
+<div class="flex">
+<img class="round-img" src="REPLACE_WITH_PHOTO_1">
+<div class="text-box">
+<h2>You Are Amazing! 💖</h2>
+<p>On your special day, I want to remind you how incredible you are. Your kindness, your laughter, your beautiful soul — everything about you makes my life better.<br><br>I'm so lucky to have you in my life 💖</p>
+</div>
+</div>
+</section>
+
+<section class="light">
+<h2 class="center-title">💖 Birthday Wishes For You 💖</h2>
+<div class="wish-grid">
+<div class="wish">😊<h4>Happiness</h4></div>
+<div class="wish">🌟<h4>Success</h4></div>
+<div class="wish">💖<h4>Love</h4></div>
+<div class="wish">🍀<h4>Good Health</h4></div>
+<div class="wish">🙏<h4>Blessings</h4></div>
+</div>
+</section>
+
+<section class="light">
+<h2 class="center-title">💕 Our Beautiful Memories 💕</h2>
+<div class="mem-grid">
+<div class="mem"><img src="REPLACE_PHOTO_2"></div>
+<div class="mem"><img src="REPLACE_PHOTO_3"></div>
+<div class="mem"><img src="REPLACE_PHOTO_4"></div>
+<div class="mem"><img src="REPLACE_PHOTO_5"></div>
+</div>
+</section>
+
+<section class="msg">
+<h2>💌 A Special Message For You 💌</h2>
+<p>Life will bring beautiful days and challenging days, but I love you and remember your strength... Always keep smiling, keep shining, and keep being YOU!</p>
+</section>
+
+<section id="final">
+<div class="hearts" id="h2"></div>
+<h2>🎁 A Final Surprise For You 🎁</h2>
+<p>Close your eyes for a moment, make a wish, and imagine all the wonderful things the coming year will bring for you.</p>
+<button class="btn-pink" id="revealBtn">Open Your Final Surprise 🎉</button>
+<h3 id="finalMsg" style="display:none">Happy Birthday Once Again!<br><span style="font-family:Poppins;font-size:14px">Lots of love, Dear Bestie! ❤️</span></h3>
+</section>
+</body>
 </html>
