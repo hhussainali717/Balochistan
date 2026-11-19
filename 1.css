@@ -1,0 +1,5 @@
+*, *::before, *::after{box-sizing: border-box;}
+.heading{
+    font-family: Bodoni Moda;   
+    font-size: 37px;
+}
