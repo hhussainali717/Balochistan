@@ -1,5 +1,24 @@
 *, *::before, *::after{box-sizing: border-box;}
 .heading{
-    font-family: Bodoni Moda;   
+    font-family: cursive;   
     font-size: 37px;
 }
+*{
+    background-image: url(1600w-JCHKgDB-xzQ.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.point{
+    font-size: 13px;
+}
+.bottom{
+    margin-top: 290px;
+}
+.left{
+    margin-left: 100px;
+    margin-top:80px;
+}
+
+
