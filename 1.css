@@ -3,22 +3,28 @@
     font-family: cursive;   
     font-size: 37px;
 }
-*{
-    background-image: url(1600w-JCHKgDB-xzQ.webp);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.container{
+      padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(0 255,255,0.3);
+        width: 810px;
+        height: 630px;
+        /* text-align: center; */
+        background-color: #857885;
+        color: #472B23;
 }
-.point{
+
+.small{
     font-size: 13px;
 }
+
 .bottom{
-    margin-top: 290px;
+    margin-top: 150px;
+    font-size: 14px;
 }
+
 .left{
-    margin-left: 100px;
-    margin-top:80px;
+    display: flex;
+    margin-left: 270px;
+    font-size: 13px;
 }
-
-
